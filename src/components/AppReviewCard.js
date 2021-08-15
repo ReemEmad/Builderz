@@ -1,5 +1,4 @@
 import React from "react"
-import { Col } from "react-bootstrap"
 import imgsrc from "../assets/double-quotes.svg"
 import star from "../assets/icons8-star-48.png"
 export default function AppReviewCard({ profile }) {
