@@ -5,11 +5,9 @@ import {
   FormControl,
   Tabs,
   Tab,
-  Card,
   Container,
   Row,
   Col,
-  Carousel,
   Dropdown,
 } from "react-bootstrap"
 
@@ -24,7 +22,6 @@ import teen from "../assets/teenager.svg"
 
 import learn from "../assets/pexels-ivan-samkov-8504531.jpg"
 import learn1 from "../assets/pexels-julia-m-cameron-4143800.jpg"
-import learn2 from "../assets/pexels-julia-m-cameron-4144101.jpg"
 import learn3 from "../assets/pexels-julia-m-cameron-4144293.jpg"
 import learn4 from "../assets/pexels-julia-m-cameron-4145153.jpg"
 import about from "../assets/pexels-pixabay-459654.jpg"
@@ -32,22 +29,9 @@ import about from "../assets/pexels-pixabay-459654.jpg"
 import search from "../assets/search.png"
 
 import grid1 from "../assets/pexels-pixabay-207691.jpg"
-import grid2 from "../assets/pexels-polina-tankilevitch-4443127.jpg"
-import grid3 from "../assets/pexels-polina-tankilevitch-4443115.jpg"
-import grid4 from "../assets/pexels-julia-m-cameron-4144101.jpg"
-import grid5 from "../assets/pexels-donald-tong-66134.jpg"
-import grid6 from "../assets/pexels-cottonbro-3585011.jpg"
 
 import grid7 from "../assets/pexels-sharon-mccutcheon-1148998.jpg"
-import grid8 from "../assets/pexels-raniro-coelho-4257148.jpg"
-import grid9 from "../assets/pexels-artem-podrez-6941450.jpg"
-
-import grid10 from "../assets/pexels-sharon-mccutcheon-1148998.jpg"
 import grid11 from "../assets/pexels-raniro-coelho-4257148.jpg"
-import grid12 from "../assets/pexels-artem-podrez-6941450.jpg"
-import grid13 from "../assets/pexels-sharon-mccutcheon-1148998.jpg"
-import grid14 from "../assets/pexels-raniro-coelho-4257148.jpg"
-import grid15 from "../assets/pexels-artem-podrez-6941450.jpg"
 
 import profile1 from "../assets/portrait-of-a-self-confident-young-man-1.jpg"
 import profile2 from "../assets/portrait-of-a-smiling-african-american-young-woman-with-dreads-1.jpg"
@@ -55,12 +39,7 @@ import profile3 from "../assets/profile-picture-of-a-female-doctor-on-a-white-co
 import profile4 from "../assets/my-favorite-profile-picture-1.jpg"
 
 import img1 from "../assets/pexels-cottonbro-3584923.jpg"
-import img2 from "../assets/pexels-artem-podrez-6942769.jpg"
-import img3 from "../assets/pexels-cottonbro-3585011.jpg"
-import img4 from "../assets/pexels-caio-56759.jpg"
 
-import star from "../assets/icons8-star-48.png"
-import group from "../assets/group-activity.jpg"
 import logo from "../assets/logo.jpg"
 import play from "../assets/play-button.svg"
 
