@@ -23,14 +23,12 @@ import teen from "../assets/teenager.svg"
 import learn from "../assets/pexels-ivan-samkov-8504531.jpg"
 import learn1 from "../assets/pexels-julia-m-cameron-4143800.jpg"
 import learn3 from "../assets/pexels-julia-m-cameron-4144293.jpg"
-import learn4 from "../assets/pexels-julia-m-cameron-4145153.jpg"
-import about from "../assets/pexels-pixabay-459654.jpg"
 
-import search from "../assets/search.png"
+import about from "../assets/pexels-pixabay-459654.jpg"
 
 import grid1 from "../assets/pexels-pixabay-207691.jpg"
 
-import grid7 from "../assets/pexels-sharon-mccutcheon-1148998.jpg"
+import grid7 from "../assets/pexels-max-fischer-5212351.jpg"
 import grid11 from "../assets/pexels-raniro-coelho-4257148.jpg"
 
 import profile1 from "../assets/portrait-of-a-self-confident-young-man-1.jpg"
