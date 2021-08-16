@@ -43,7 +43,7 @@ export default function AppCard({
         )}
         <Card.Body>
           <Card.Title className="card-title">{title}</Card.Title>
-          {showdate && <hr size="" width="" color="#777777" />}
+          <hr size="" width="" color="#777777" className="hr-line" />
           {showdate && (
             <p className="card-date">Nov Tue 2021 @9:00 AM -04:00 PM</p>
           )}

@@ -121,7 +121,9 @@ p {
     linear-gradient(91deg, #f0490d 0%, #e8ab4a 96%, #feb101 100%) 0% 0%
     no-repeat padding-box;
 }
-
+.hr-line {
+  color: var(--color-777777);
+}
 .welcome {
   width: 100%;
   height: 475px;
