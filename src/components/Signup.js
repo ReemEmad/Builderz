@@ -89,14 +89,9 @@ export default function Signup() {
           <Form.Group controlId="formBasicEmail">
             <div className=" text-start mb-3">
               <Form.Label>Password*</Form.Label>
-              <span className="password-input">
-                <Form.Control
-                  type="password"
-                  className="input-form py-3"
-                  // placeholder="dd/mm/yy"
-                />
-                {/* <InputGroup.Text id="basic-addon1">@</InputGroup.Text> */}
-              </span>
+              <div>
+                <Form.Control type="password" className="input-form py-3" />
+              </div>
             </div>
           </Form.Group>
         </Form>
