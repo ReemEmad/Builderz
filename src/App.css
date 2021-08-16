@@ -160,15 +160,16 @@ p {
   border: none;
 }
 
-/* //TODO SEARCH ICON  */
-
-.input-search::before {
+.input-container-search::after {
   content: url("./assets/search_icon.svg");
+
   /* margin-right: 0.75rem; */
   display: inline-block;
   vertical-align: middle;
-  top: 30%;
-  left: 90%;
+  top: 25%;
+  left: 87%;
+  position: absolute;
+  z-index: 1122;
   /* margin-right: 0.5rem; */
 }
 
@@ -274,6 +275,30 @@ p {
   text-align: center;
   font-size: var(--font-size-60);
 }
+.tab-width {
+  width: max-content;
+}
+.nav-tabs {
+  border: 1px solid #e0e4e6;
+  border-radius: 33px;
+  /* height: 60px; */
+  padding: 3px 2px;
+}
+.nav-tabs .nav-link.active {
+  background: var(--color-60cbcc) 0% 0% no-repeat padding-box;
+  border-radius: 33px;
+  padding: 16px 45px;
+  color: var(--color-ffffff);
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  border-color: transparent;
+}
+.nav-tabs .nav-link {
+  color: var(--color-555555);
+  padding: 16px 45px;
+}
+
 .container__text__grid__2 ul {
   margin-bottom: 2.5%;
 }
@@ -380,7 +405,6 @@ p {
 
 .absolute {
   width: 100%;
-  height: 100%;
   position: absolute;
   text-align: center;
   margin-left: -20%;
@@ -388,12 +412,6 @@ p {
   top: 65%;
   left: 20%;
   /* font-size: 16px; */
-}
-.absoulte:nth-child(1) {
-  background: chocolate;
-  position: absolute;
-  top: 35%;
-  left: 25%;
 }
 
 .section-4 {
@@ -669,16 +687,6 @@ li {
   vertical-align: middle;
   margin-right: 0.5rem;
 }
-/* //TODO  eye icon*/
-/* .password-input::before {
-  content: url("./assets/eye.svg");
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 0.5rem;
-  position: relative;
-  left: 70%;
-  top: -90%;
-} */
 
 .login-form {
   font-weight: 300;
