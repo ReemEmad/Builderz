@@ -3,7 +3,9 @@ import { Navbar, Nav, Container, Button, Badge } from "react-bootstrap"
 import imgSrc from "../assets/icons8-heart-24.png"
 import cartSrc from "../assets/icons8-shopping-cart-50.png"
 import logo from "../assets/logo.jpg"
+import { useHistory } from "react-router-dom"
 export default function AppNavbar() {
+  let history = useHistory()
   return (
     <header>
       <Navbar expand="lg">
@@ -59,7 +61,12 @@ export default function AppNavbar() {
                   2
                 </Badge>
               </span>
-              <Button className="btn navbar-right">Log in</Button>
+              <Button
+                className="btn navbar-right"
+                onClick={() => history.push("/signup")}
+              >
+                Log in
+              </Button>
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>
