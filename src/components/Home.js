@@ -209,17 +209,17 @@ export default function Home() {
             </Container>
           </div>
 
-          <div className="container__text__grid__2 pt-5 ">
+          <div className="container__text__grid__2 pt-5  ">
             <h1>Categories</h1>
             <Tabs
               defaultActiveKey="kids"
               id="uncontrolled-tab-example"
-              className="align-middle container__text pt-5 text-center w-25 mx-auto"
+              className="align-middle container__text text-center mx-auto mt-5 tab-width"
             >
               <Tab eventKey="kids" title="Kids">
                 <div className="container__text__2__flex">
                   <Slider {...settings1}>
-                    <div className="container__text__2__flex__item ">
+                    <div className="container__text__2__flex__item pb-0">
                       <div className="relative">
                         <div className="over-lay"></div>
                         <img src={learn} alt="" />
@@ -277,13 +277,13 @@ export default function Home() {
                 </div>
               </Tab>
               <Tab eventKey="teen" title="Teen">
-                <p> teen</p>
+                <p className="p-3"> teen</p>
               </Tab>
               <Tab eventKey="parents" title="Parents">
-                <p> parents</p>
+                <p className="p-3"> parents</p>
               </Tab>
               <Tab eventKey="lecturer" title="Lecturer">
-                <p> lecturer</p>
+                <p className="p-3"> lecturer</p>
               </Tab>
             </Tabs>
           </div>
