@@ -242,7 +242,7 @@ export default function Home() {
                     <div className="container__text__2__flex__item">
                       <div className="relative">
                         <div className="over-lay"></div>
-                        <img src={learn4} alt=""></img>
+                        <img src={learn3} alt=""></img>
                         <div className="absolute">
                           <h5>English</h5>
                           <h6>2 Courses</h6>
@@ -264,7 +264,7 @@ export default function Home() {
                     <div className="container__text__2__flex__item">
                       <div className="relative">
                         <div className="over-lay"></div>
-                        <img src={learn4} alt=""></img>
+                        <img src={learn3} alt=""></img>
                         <div className="absolute">
                           <h5>Spanish</h5>
                           <h6>2 Courses</h6>
