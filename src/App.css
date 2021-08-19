@@ -335,12 +335,20 @@ svg .ytp-large-play-button-bg {
   .form-btns {
     flex-direction: column;
   }
+
   .form-parents {
     margin-right: 0 !important;
     margin-left: 0 !important;
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: red;
+  }
+
+  li {
+    font-size: 12px !important;
+  }
+  footer p {
+    font-size: 12px !important;
   }
 }
 
@@ -351,6 +359,9 @@ svg .ytp-large-play-button-bg {
   }
   .container__text__subscribe {
     flex-direction: column;
+  }
+  .form-sub {
+    margin-top: 0.85rem;
   }
   .side-img {
     display: none;
@@ -670,6 +681,7 @@ footer p {
 li {
   font-size: var(--font-size-16);
 }
+
 .footer-facebook::before {
   content: url("./assets/facebook.svg");
 

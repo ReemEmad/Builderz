@@ -372,8 +372,6 @@ export default function Home() {
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     ></iframe>
-                    {/* <img src={play} alt="" width="30px" className="play-btn" />
-                    <div className="play-btn-circle"></div> */}
                   </div>
                 </Col>
               </Row>
@@ -567,7 +565,11 @@ export default function Home() {
                 aria-describedby="basic-addon2"
                 className="py-2 app-input"
               />
-              <Button variant="secondary" id="button-addon2">
+              <Button
+                variant="secondary"
+                id="button-addon2"
+                className="form-sub"
+              >
                 Subscribe Now
               </Button>
             </InputGroup>
@@ -620,9 +622,9 @@ export default function Home() {
                 </Row>
               </div>
 
-              <div className="container__text__footer__flex__2 d-flex justify-content-between">
+              <div className="container__text__footer__flex__2 d-flex justify-content-between align-items-center">
                 <div></div>
-                <p className="text-center pt-5">
+                <p className="text-center pt-5 rights">
                   &copy;2020 <span className="footer-badge">BUILDERZ </span>All
                   Rights Reserved
                 </p>
