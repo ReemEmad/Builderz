@@ -41,7 +41,7 @@ export default function AppNavbar() {
                 <span className="nav-text">Contact </span>
               </Nav.Link>
             </Nav>
-            <Navbar.Text className="mx-4 ">
+            <Navbar.Text className="mx-4">
               <img
                 alt="like"
                 src={imgSrc}
