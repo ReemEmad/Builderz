@@ -6,18 +6,16 @@ import { Route, Switch } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <Switch>
-        <Route path="/signup">
-          <Signup />
-        </Route>
+    <Switch>
+      <Route path="/signup">
+        <Signup />
+      </Route>
 
-        <Route path="/">
-          <AppNavbar />
-          <Home />
-        </Route>
-      </Switch>
-    </div>
+      <Route path="/">
+        <AppNavbar />
+        <Home />
+      </Route>
+    </Switch>
   )
 }
 

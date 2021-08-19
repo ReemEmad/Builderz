@@ -6,22 +6,27 @@ import {
   Dropdown,
   InputGroup,
   FormControl,
+  Row,
+  Col,
 } from "react-bootstrap"
 
 export default function Signup() {
   return (
     <div className="d-flex signup-form">
       <div className="side-img"></div>
-      <div className="side-form mx-auto text-center ">
+
+      <div className="side-form mx-auto text-center">
         <img src={logo} alt="logo" className="mx-auto mt-5" />
         <h1>Sign UP</h1>
-        <div className="d-flex justify-content-evenly pt-3">
+
+        <div className="d-flex justify-content-evenly pt-3 form-btns">
           <Button variant="info" className="form-student">
             Student
           </Button>
           <Button variant="outline-info" className="form-parents mx-3">
             Parents
           </Button>
+
           <Button variant="outline-info" className="form-teacher mr-3">
             Lecturer
           </Button>
@@ -29,7 +34,7 @@ export default function Signup() {
 
         <Form className="pt-4">
           <Form.Group
-            className="d-flex justify-content-between"
+            className="d-flex justify-content-between form-names"
             controlId="formBasicEmail"
           >
             <div className="text-start">
