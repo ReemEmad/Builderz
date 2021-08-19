@@ -312,6 +312,12 @@ p {
   color: var(--color-555555);
   padding: 16px 45px;
 }
+/* .ytp-large-play-button svg[path] {
+  fill: yellow !important;
+} */
+.ytp-large-play-button svg[path] {
+  fill: yellow !important;
+}
 
 @media (max-width: 480px) {
   .nav-tabs .nav-link.active {
