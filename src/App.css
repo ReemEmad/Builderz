@@ -640,9 +640,9 @@ svg .ytp-large-play-button-bg {
 }
 
 .container__text__subscribe h1 {
-  /* font-family: var(--font-family-poppins); */
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: var(--font-weight-600);
   line-height: 65px;
   color: #2e4751;
 }
@@ -691,9 +691,9 @@ li {
 }
 
 .footer-badge {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family-poppins);
   color: #104193;
-  font-weight: 600;
+  font-weight: var(--font-weight-600);
 }
 
 .dropdown-lang::before {
@@ -776,7 +776,7 @@ li {
 }
 
 .login-form {
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
   color: var(--color-555555);
 }
 .login-form span {
