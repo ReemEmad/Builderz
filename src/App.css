@@ -315,8 +315,8 @@ p {
 /* .ytp-large-play-button svg[path] {
   fill: yellow !important;
 } */
-.ytp-large-play-button svg[path] {
-  fill: yellow !important;
+.ytp-large-play-button svg[path][fill] {
+  color: yellow !important;
 }
 
 @media (max-width: 480px) {
