@@ -16,7 +16,7 @@ export default function AppReviewCard({ profile }) {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris"
       </p>
-      <div className="d-flex pb-5 mb-2 w-50 mx-auto">
+      <div className="d-flex pb-5 mb-2 w-50 mx-auto star-rating">
         {Array.from({ length: 5 }).map((item) => (
           <img src={star} alt="star" width="26.12px" className="mx-auto" />
         ))}

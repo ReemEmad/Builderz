@@ -23,10 +23,10 @@ export default function AppCard({
         <Card.Img variant="top" src={Img} width={width} height={height} />
         {showStars && (
           <div className="d-flex justify-content-start">
-            <span>
+            <div className="white-circle-like">
               <img src={like} alt="" id="white-circle-like"></img>
-              <div className="white-circle-like"></div>
-            </span>
+            </div>
+
             <Button
               id="card-btn"
               className={
