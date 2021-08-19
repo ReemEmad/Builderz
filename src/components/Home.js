@@ -368,9 +368,9 @@ export default function Home() {
                       height="400"
                       src="https://www.youtube.com/embed/yEe17VY2sUA"
                       title="YouTube video player"
-                      frameborder="0"
+                      frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
                     {/* <img src={play} alt="" width="30px" className="play-btn" />
                     <div className="play-btn-circle"></div> */}
