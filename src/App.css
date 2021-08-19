@@ -312,9 +312,7 @@ p {
   color: var(--color-555555);
   padding: 16px 45px;
 }
-/* .ytp-large-play-button svg[path] {
-  fill: yellow !important;
-} */
+
 svg .ytp-large-play-button-bg {
   fill: yellow !important;
   color: yellow !important;
