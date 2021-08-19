@@ -23,8 +23,6 @@ import learn from "../assets/pexels-ivan-samkov-8504531.jpg"
 import learn1 from "../assets/pexels-julia-m-cameron-4143800.jpg"
 import learn3 from "../assets/pexels-julia-m-cameron-4144293.jpg"
 
-import about from "../assets/pexels-pixabay-459654.jpg"
-
 import grid1 from "../assets/pexels-pixabay-207691.jpg"
 
 import grid7 from "../assets/pexels-max-fischer-5212351.jpg"
@@ -38,7 +36,6 @@ import profile4 from "../assets/my-favorite-profile-picture-1.jpg"
 import img1 from "../assets/pexels-cottonbro-3584923.jpg"
 
 import logo from "../assets/logo.jpg"
-import play from "../assets/play-button.svg"
 
 import clock from "../assets/icons8-clock-24.png"
 import AppCard from "./AppCard"
@@ -114,7 +111,7 @@ export default function Home() {
               Welcome To <span>Academy</span>
             </h1>
             <Row>
-              <Col md={6}>
+              <Col md={6} className="col-sm-12 col-md-6 col-lg-4">
                 <p className="container--narrow my-4">
                   Study any topic, anytime. Explore thousands of courses for the
                   lowest price ever!
@@ -122,7 +119,7 @@ export default function Home() {
               </Col>
             </Row>
             <Row>
-              <Col md={6}>
+              <Col md={6} className="col-sm-12 col-md-6 col-lg-4">
                 <InputGroup className="input-container-search">
                   <FormControl
                     placeholder="What do you want to learn?"
