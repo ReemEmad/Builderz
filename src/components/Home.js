@@ -496,7 +496,7 @@ export default function Home() {
       <section className="pt-5 section-7 mb-5 pb-5">
         <div className="container__text review-cards">
           <h1 className="text-center">What Our Client Saying</h1>
-          <p className="text-center w-50 mx-auto">
+          <p className="text-center w-50 mx-auto client-p">
             Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
