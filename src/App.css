@@ -313,12 +313,14 @@ p {
   padding: 16px 45px;
 }
 
-svg .ytp-large-play-button-bg {
-  fill: yellow !important;
-  color: yellow !important;
-}
-
 @media (max-width: 480px) {
+  .input-group {
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .input-group > .form-control {
+    width: 100% !important;
+  }
   .nav-tabs .nav-link.active {
     padding: 5px 10px;
   }
@@ -349,6 +351,9 @@ svg .ytp-large-play-button-bg {
   }
   footer p {
     font-size: 12px !important;
+  }
+  .p-courses {
+    width: 100% !important;
   }
 }
 
@@ -665,6 +670,17 @@ svg .ytp-large-play-button-bg {
   line-height: 65px;
   color: #2e4751;
 }
+.slick-dots li button:before {
+  font-size: var(--font-size-22);
+  color: var(--color-60cbcc);
+  opacity: 0.4;
+}
+.slick-dots li button:before:hover {
+  color: var(--color-60cbcc);
+}
+.slick-dots li.slick-active button:before {
+  color: var(--color-60cbcc);
+}
 
 .btn-secondary {
   border-radius: 6px !important;
@@ -812,16 +828,4 @@ label {
 }
 .review-cards {
   width: 90%;
-}
-
-.slick-dots li button:before {
-  font-size: var(--font-size-22);
-  color: var(--color-60cbcc);
-  opacity: 0.4;
-}
-.slick-dots li button:before:hover {
-  color: var(--color-60cbcc);
-}
-.slick-dots li.slick-active button:before {
-  color: var(--color-60cbcc);
 }

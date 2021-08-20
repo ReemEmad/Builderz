@@ -383,7 +383,7 @@ export default function Home() {
       <section className="section-44 pt-5 mt-5">
         <div className="container__text">
           <h1 className="text-center pb-1">Popular Courses</h1>
-          <p className="mx-auto w-50 text-center">
+          <p className="mx-auto w-50 text-center p-courses">
             Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
@@ -458,7 +458,7 @@ export default function Home() {
         <div className="container__text">
           <h1 className="text-center h-text">Latest courses</h1>
 
-          <p className="text-center w-50 mx-auto">
+          <p className="text-center w-50 mx-auto p-courses">
             Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
@@ -518,7 +518,7 @@ export default function Home() {
       <section className="section-8 pt-5 mb-5">
         <div className="container-text container-blog mx-auto mb-5">
           <h1 className="text-center">Latest Blog</h1>
-          <p className="w-50 text-center mx-auto">
+          <p className="w-50 text-center mx-auto p-courses">
             Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
